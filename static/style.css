@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+#front-page{
+    position: relative;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 100vh;
+}
+
+
+#upper-design{
+    position: absolute;
+    height: 14vh;
+    left: 30vh;
+}
+
+#background-design{
+    position: absolute;
+    width: 150vh;
+    top: 11vh;
+}
+
+#bottom-design{
+    position: absolute;
+    width: 312vh;
+    /* left: 19vh; */
+    right: 0%;
+    bottom: 0%;
+    /* top: 39vh; */
+}
+
+#left-bottom-design{
+    position: absolute;
+    width: 35vh;
+    left: 0%;
+    /* top: 81vh; */
+    bottom: 0%;
+}
+
+#right-bottom-design{
+    position: absolute;
+    width: 45vh;
+    right: 0%;
+    bottom: 0%;
+}
+
+#men-back-design{
+    position: absolute;
+    width: 31vh;
+    right: 0%;
+    top: 27vh;
+}
+
+#men{
+    position: absolute;
+    width: 80vh;
+    right: 0%;
+    bottom: 0%;
+    /* background: url("/Men/images/Men/men.png") lightgray 50% / cover no-repeat; */
+/* box-shadow: 0px 23px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+
+#resume{
+    position: absolute;
+    right: 60vh;
+    bottom: 12vh;
+    width: 49vh;
+    /* height: 66vh;*/
+}
+
+#lets-build{
+    position: absolute;
+    width: 56vh;
+    left: 1vh;
+    bottom: 15vh;
+}
+
+#lets-build-button{
+    position: absolute;
+    width: 32vh;
+    top: 68vh;
+    left: 13vh;
+    border-radius: 4px
+}
